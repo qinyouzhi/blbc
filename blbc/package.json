@@ -1,0 +1,27 @@
+{
+	"name": "blbc",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"gulp": "^3.9.1",
+		"gulp-connect": "*",
+		"gulp-respond": "*",
+		"gulp-uglify": "*",
+		"gulp-concat": "*",
+		"gulp-ng-annotate": "*",
+		"gulp-ngmin": "*",
+		"gulp-clean": "*",
+		"gulp-minify-css": "*",
+		"gulp-minify-html": "*",
+		"gulp-rename": "*",
+		"gulp-imagemin": "*",
+		"imagemin-pngquant": "*",
+		"imagemin-pngcrush": "*"
+	}
+}

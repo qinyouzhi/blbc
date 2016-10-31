@@ -1,0 +1,84 @@
+<!-- 头部 -->
+<header class="header" id="header">
+	<h1 id="title">发现</h1>
+</header>
+<!-- 中部 -->
+<main class="main">
+	<section id="find">
+		<div class="scroller">
+			<div class="FXbanner">
+				<img src="img/FXbanner.gif">
+			</div>
+			<nav class="findNav">
+				<a href="javascript:;">
+					<dl>
+						<dt><img src="img/findDt1.gif"></dt>
+						<dd>理财产品</dd>
+					</dl>
+				</a>
+				<a href="javascript:;">
+					<dl>
+						<dt><img src="img/findDt2.gif"></dt>
+						<dd>积分兑换</dd>
+					</dl>
+				</a>
+				<a ui-sref="data">
+					<dl id="data">
+						<dt><img src="img/findDt3.gif"></dt>
+						<dd>平台数据</dd>
+					</dl>
+				</a>
+			</nav>
+			<div class="findUser">
+				<div class="findUserH">
+					<span></span>
+					<h3>新手专享</h3>
+				</div>
+				<div class="findUserCan" ng-repeat="i in data" ng-find>
+					<div class="findUserCanLeft">{{i.titNum}}</div>
+					<div class="findUserCanCenter">
+						<p>{{i.qitou}}</p>
+						<p>{{i.jixi}}</p>
+					</div>
+					<div class="findUserCanRight">
+						<div class="findCanvas">
+							<div class="findDvP">
+								<p></p>
+								<p id="pBg{{i.id}}" class="pBg"></p>
+							</div>
+							<h4>{{i.num*100}}%</h4>
+						</div>
+						<span class="deadLine">{{i.data}}</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</main>
+<!-- 尾部 -->
+<footer class="footer" id="indexFoot">
+	<a ui-sref="index" class="color">
+		<dl>
+			<dt><img src="img/home.gif"></dt>
+			<dd>首页</dd>
+		</dl>
+	</a>
+	<a ui-sref="licai">
+		<dl>
+			<dt><img src="img/licai.gif"></dt>
+			<dd>理财</dd>
+		</dl>
+	</a>
+	<a ui-sref="find">
+		<dl>
+			<dt><img src="img/faxian.gif"></dt>
+			<dd>发现</dd>
+		</dl>
+	</a>
+	<a ui-sref="me">
+		<dl>
+			<dt><img src="img/user.gif"></dt>
+			<dd>我的</dd>
+		</dl>
+	</a>
+</footer>

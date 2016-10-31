@@ -1,0 +1,22 @@
+{
+	"name": "blbc",
+	"description": "",
+	"main": "",
+	"license": "MIT",
+	"homepage": "",
+	"ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+	"devDependencies": {
+		"angular": "angularjs#^1.5.8",
+		"zepto": "*",
+		"angular-ui-router": "*",
+		"iscroll": "*",
+		"swiper": "*",
+		"jquery": "*"
+	}
+}

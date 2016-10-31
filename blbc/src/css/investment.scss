@@ -1,0 +1,114 @@
+@mixin pos($p:absolute) {
+	position: $p;
+}
+
+.investment_main {
+	width: 100%;
+	height: 100%;
+	background: #F5F3F3;
+	overflow: hidden;
+	@include pos(relative);
+	section {
+		width: 100%;
+		height: 100%;
+		@include pos;
+		left: 0;
+		.scroller {
+			padding-bottom: .5rem;
+		}
+	}
+}
+
+.invCon {
+	width: 100%;
+	height: 3.38rem;
+	background: #fff;
+	margin-top: .12rem;
+	.invConDv {
+		width: 94%;
+		margin: 0 auto;
+		h2 {
+			width: 100%;
+			border-bottom: 1px solid #ccc;
+			color: #333;
+			font-size: .26rem;
+			line-height: .74rem;
+			padding-left: .06rem;
+			@include pos(relative);
+		}
+		span {
+			color: #C7C7C7;
+			font-size: .22rem;
+			@include pos;
+			top: 0;
+			right: .08rem;
+		}
+	}
+	h5 {
+		text-align: center;
+		line-height: .72rem;
+		color: 666;
+		font-size: .16rem;
+		em {
+			font-style: normal;
+			color: #4B66EF;
+		}
+	}
+	button {
+		width: 94%;
+		height: .6rem;
+		background: #FC5B3E;
+		margin: 0 auto;
+		display: block;
+		border: none;
+		outline: none;
+		color: #fff;
+		border-radius: .1rem;
+		margin-top: .24rem;
+	}
+	.invConDvEarnings {
+		width: 94%;
+		height: .94rem;
+		margin: 0 auto;
+		display: -webkit-flex;
+		div {
+			-webkit-flex: 1 0;
+			@include pos(relative);
+			&:nth-of-type(1) {
+				padding-left: .42rem;
+				i {
+					width: .02rem;
+					height: .54rem;
+					@include pos();
+					top: 0;
+					bottom: 0;
+					right: 0;
+					margin: auto 0;
+					z-index: 999;
+					background: #B3B3B3;
+				}
+			}
+			&:nth-of-type(2) {
+				padding-right: .42rem;
+				text-align: right;
+				p {
+					padding-top: .09rem;
+				}
+			}
+			h3 {
+				color: #FC5B3E;
+				font-size: .29rem;
+				padding: .09rem 0;
+				span {
+					padding: .09rem 0;
+					color: #666;
+					font-size: .21rem;
+				}
+			}
+			p {
+				color: #333;
+				font-size: .22rem;
+			}
+		}
+	}
+}

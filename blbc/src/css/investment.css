@@ -1,0 +1,91 @@
+.investment_main {
+  width: 100%;
+  height: 100%;
+  background: #F5F3F3;
+  overflow: hidden;
+  position: relative; }
+  .investment_main section {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0; }
+    .investment_main section .scroller {
+      padding-bottom: .5rem; }
+
+.invCon {
+  width: 100%;
+  height: 3.38rem;
+  background: #fff;
+  margin-top: .12rem; }
+  .invCon .invConDv {
+    width: 94%;
+    margin: 0 auto; }
+    .invCon .invConDv h2 {
+      width: 100%;
+      border-bottom: 1px solid #ccc;
+      color: #333;
+      font-size: .26rem;
+      line-height: .74rem;
+      padding-left: .06rem;
+      position: relative; }
+    .invCon .invConDv span {
+      color: #C7C7C7;
+      font-size: .22rem;
+      position: absolute;
+      top: 0;
+      right: .08rem; }
+  .invCon h5 {
+    text-align: center;
+    line-height: .72rem;
+    color: 666;
+    font-size: .16rem; }
+    .invCon h5 em {
+      font-style: normal;
+      color: #4B66EF; }
+  .invCon button {
+    width: 94%;
+    height: .6rem;
+    background: #FC5B3E;
+    margin: 0 auto;
+    display: block;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: .1rem;
+    margin-top: .24rem; }
+  .invCon .invConDvEarnings {
+    width: 94%;
+    height: .94rem;
+    margin: 0 auto;
+    display: -webkit-flex; }
+    .invCon .invConDvEarnings div {
+      -webkit-flex: 1 0;
+      position: relative; }
+      .invCon .invConDvEarnings div:nth-of-type(1) {
+        padding-left: .42rem; }
+        .invCon .invConDvEarnings div:nth-of-type(1) i {
+          width: .02rem;
+          height: .54rem;
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          right: 0;
+          margin: auto 0;
+          z-index: 999;
+          background: #B3B3B3; }
+      .invCon .invConDvEarnings div:nth-of-type(2) {
+        padding-right: .42rem;
+        text-align: right; }
+        .invCon .invConDvEarnings div:nth-of-type(2) p {
+          padding-top: .09rem; }
+      .invCon .invConDvEarnings div h3 {
+        color: #FC5B3E;
+        font-size: .29rem;
+        padding: .09rem 0; }
+        .invCon .invConDvEarnings div h3 span {
+          padding: .09rem 0;
+          color: #666;
+          font-size: .21rem; }
+      .invCon .invConDvEarnings div p {
+        color: #333;
+        font-size: .22rem; }

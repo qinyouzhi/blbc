@@ -1,0 +1,30 @@
+<div load-show class="loginBox">
+	<div class="loadImg" id="loadImg"><img src="img/load.jpg" alt=""></div>
+	<div class="loginHead_main">
+		<header class="loginHeader">
+			<h1 id="title">登录</h1>
+			<a href="javascript:;">注册</a>
+		</header>
+		<main class="loginMain">
+			<div class="loginTop">
+				<div class="loginLogo"><img src="./img/logo.gif" alt=""></div>
+			</div>
+			<div class="loginCen">
+				<form>
+					<div class="inputs">
+						<span>手机</span>
+						<input type="text" placeholder="手机号码" ng-model="username" name="username" id="username">
+					</div>
+					<div class="inputs">
+						<span>密码</span>
+						<input type="password" placeholder="密码" ng-model="userpwd" name="userpwd" id="userpwd">
+					</div>
+					<button class="sub" id="sub" ng-click="submit()">
+						登录
+					</button>
+					<div class="delPwd"><a href="javascript:;">忘记密码？</a></div>
+				</form>
+			</div>
+		</main>
+	</div>
+</div>

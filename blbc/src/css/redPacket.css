@@ -1,0 +1,107 @@
+.red_main {
+  -webkit-flex: 1 0;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  background: #FBFBFB; }
+
+.red_nav {
+  width: 100%;
+  height: .62rem;
+  border-bottom: .02rem solid #CECECE;
+  background: #fff;
+  position: relative;
+  z-index: 666; }
+  .red_nav ul {
+    width: 100%;
+    display: -webkit-flex;
+    -webkit-justify-content: space-between; }
+    .red_nav ul li {
+      width: 1.78rem;
+      height: .62rem;
+      text-align: center;
+      line-height: .62rem;
+      color: #333;
+      font-size: .28rem; }
+    .red_nav ul .bod {
+      border-bottom: .02rem solid #EFA125;
+      color: #EFA125; }
+
+.redB {
+  width: 89%;
+  height: 2.33rem;
+  background: #fff;
+  margin: 0 auto;
+  margin-top: .2rem;
+  display: -webkit-flex; }
+  .redB h2 {
+    width: .78rem;
+    height: 100%;
+    background: #FF7709; }
+    .redB h2 p {
+      color: #fff;
+      font-size: .33rem;
+      text-align: center;
+      padding-top: .27rem; }
+  .redB .redExplain {
+    -webkit-flex: 1 0;
+    padding-left: .25rem;
+    position: relative; }
+    .redB .redExplain h3 {
+      display: -webkit-flex; }
+      .redB .redExplain h3 span {
+        color: #FF7709;
+        font-size: .28rem;
+        line-height: .52rem; }
+      .redB .redExplain h3 p {
+        -webkit-flex: 1 0;
+        color: #333;
+        text-align: right;
+        font-size: .28rem;
+        padding-right: .16rem; }
+    .redB .redExplain h4 {
+      color: #333;
+      font-size: .28rem;
+      line-height: .6rem; }
+    .redB .redExplain ul li {
+      color: #666;
+      font-size: .21rem;
+      padding-left: .28rem;
+      margin-bottom: .08rem;
+      position: relative; }
+      .redB .redExplain ul li span {
+        width: .15rem;
+        height: .14rem;
+        background: url(../img/redYuan.gif) no-repeat;
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto 0; }
+      .redB .redExplain ul li i {
+        font-style: normal;
+        color: #FF7709; }
+    .redB .redExplain .sy {
+      width: 1.23rem;
+      height: 1.36rem;
+      position: absolute;
+      right: .24rem;
+      bottom: .24rem; }
+      .redB .redExplain .sy img {
+        width: 100%;
+        height: 100%;
+        display: block; }
+
+.redBox {
+  -webkit-flex: 1 0;
+  display: -webkit-box; }
+
+.redDiv {
+  width: 100%;
+  position: relative; }
+  .redDiv section {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0; }

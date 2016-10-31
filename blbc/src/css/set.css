@@ -1,0 +1,253 @@
+.set_main {
+  width: 100%;
+  height: 100%;
+  background: #FBFBFB;
+  position: relative; }
+  .set_main .section {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    z-index: 999;
+    background: #F2EEEF; }
+
+#phoneNumber,
+#email {
+  background: #FBFBFB; }
+  #phoneNumber .numCont,
+  #email .numCont {
+    width: 90%;
+    margin: 0 auto; }
+    #phoneNumber .numCont h2,
+    #email .numCont h2 {
+      line-height: .88rem;
+      color: #333;
+      font-size: .26rem; }
+    #phoneNumber .numCont h3,
+    #email .numCont h3 {
+      line-height: .85rem;
+      color: #FC2B3C;
+      font-size: .26rem; }
+    #phoneNumber .numCont input,
+    #email .numCont input {
+      width: 100%;
+      height: .7rem;
+      border: 1px solid #888;
+      border-radius: .1rem;
+      outline: none;
+      background: #FBFBFB; }
+    #phoneNumber .numCont button,
+    #email .numCont button {
+      width: 100%;
+      height: .8rem;
+      background: #EFA125;
+      display: block;
+      border: none;
+      outline: none;
+      border-radius: .1rem;
+      color: #fff; }
+
+#bank button {
+  width: 94%;
+  height: .8rem;
+  background: #FC5B3E;
+  display: block;
+  margin: 0 auto;
+  border: none;
+  outline: none;
+  border-radius: .1rem;
+  color: #fff;
+  margin-top: 1.06rem; }
+#bank h2 {
+  line-height: .87rem;
+  border-bottom: 1px solid #E0DEDF;
+  color: #333;
+  font-size: .22rem;
+  text-indent: .21rem; }
+#bank .inputs {
+  width: 100%;
+  height: .97rem;
+  background: #fff;
+  display: -webkit-flex;
+  border-bottom: 1px solid #E0DEDF; }
+  #bank .inputs span {
+    width: 1.7rem;
+    height: 100%;
+    line-height: .97rem;
+    color: #333;
+    font-size: .26rem;
+    display: inline-block;
+    padding-left: .2rem; }
+  #bank .inputs input {
+    -webkit-flex: 1 0;
+    border: none;
+    outline: none; }
+
+#pwd {
+  background: #FBFBFB; }
+  #pwd h2 {
+    color: #333;
+    font-size: .27rem;
+    text-align: center;
+    padding-top: .44rem;
+    padding-bottom: .1rem; }
+  #pwd h3 {
+    color: #333;
+    font-size: .27rem;
+    text-align: center; }
+  #pwd .pwdDv {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: .46rem; }
+    #pwd .pwdDv .inputes {
+      width: 100%;
+      height: .7rem;
+      border: 1px solid #BFBFBF;
+      display: -webkit-flex; }
+      #pwd .pwdDv .inputes span {
+        width: 1.46rem;
+        height: .7rem;
+        display: inline-block;
+        text-align: center;
+        line-height: .66rem;
+        font-size: .26rem;
+        color: #333; }
+      #pwd .pwdDv .inputes input {
+        -webkit-flex: 1 0;
+        border: none;
+        outline: none;
+        background: #FBFBFB; }
+    #pwd .pwdDv p {
+      color: #3F68F8;
+      font-size: .24rem;
+      line-height: .6rem;
+      text-align: right; }
+    #pwd .pwdDv h5 {
+      color: #666;
+      font-size: .23rem;
+      text-align: center;
+      line-height: .74rem; }
+    #pwd .pwdDv button {
+      width: 100%;
+      height: .7rem;
+      background: #F1A631;
+      color: #fff;
+      border-radius: .35rem;
+      border: none;
+      outline: none;
+      margin-top: .2rem; }
+    #pwd .pwdDv .ckBox {
+      font-size: .22rem;
+      padding-top: .22rem; }
+      #pwd .pwdDv .ckBox input {
+        width: .3rem;
+        height: .3rem; }
+      #pwd .pwdDv .ckBox span {
+        color: #666; }
+      #pwd .pwdDv .ckBox i {
+        color: #3765F6;
+        font-style: normal; }
+
+.content {
+  width: 94%;
+  margin: 0 auto;
+  position: relative;
+  z-index: 9999; }
+  .content ul {
+    width: 100%; }
+    .content ul li {
+      width: 100%;
+      height: .97rem;
+      border-bottom: .02rem solid #ccc;
+      position: relative; }
+      .content ul li a {
+        width: 100%;
+        height: .97rem;
+        display: inline-block; }
+      .content ul li p {
+        line-height: .97rem;
+        color: #1B1B1B;
+        font-size: .26rem;
+        text-indent: .84rem; }
+      .content ul li i {
+        width: .18rem;
+        height: .3rem;
+        background: url(../img/right.gif) no-repeat;
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: .02rem;
+        margin: auto 0; }
+      .content ul li span {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto 0; }
+      .content ul li:nth-of-type(1) span {
+        width: .19rem;
+        height: .34rem;
+        background: url(../img/phone.gif) no-repeat;
+        background-size: cover;
+        left: .35rem; }
+      .content ul li:nth-of-type(2) span {
+        width: .32rem;
+        height: .33rem;
+        background: url(../img/emil.gif) no-repeat;
+        background-size: cover;
+        left: .28rem; }
+      .content ul li:nth-of-type(3) span {
+        width: .4rem;
+        height: .44rem;
+        background: url(../img/pwd.gif) no-repeat;
+        background-size: cover;
+        left: .25rem; }
+      .content ul li:nth-of-type(4) span {
+        width: .43rem;
+        height: .33rem;
+        background: url(../img/ZJuser.gif) no-repeat;
+        background-size: cover;
+        left: .25rem; }
+      .content ul li:nth-of-type(5) span {
+        width: .44rem;
+        height: .34rem;
+        background: url(../img/kaNumber.gif) no-repeat;
+        background-size: cover;
+        left: .25rem; }
+      .content ul li:nth-of-type(6) span {
+        width: .36rem;
+        height: .44rem;
+        background: url(../img/zfpwd.gif) no-repeat;
+        background-size: cover;
+        left: .3rem; }
+      .content ul li:nth-of-type(7) span {
+        width: .32rem;
+        height: .44rem;
+        background: url(../img/address.gif) no-repeat;
+        background-size: cover;
+        left: .31rem; }
+      .content ul li:nth-of-type(8) span {
+        width: .37rem;
+        height: .29rem;
+        background: url(../img/wx.gif) no-repeat;
+        background-size: cover;
+        left: .3rem; }
+      .content ul li:nth-of-type(9) span {
+        width: .40rem;
+        height: .35rem;
+        background: url(../img/bid.gif) no-repeat;
+        background-size: cover;
+        left: .28rem; }
+  .content button {
+    width: 6.75rem;
+    height: .83rem;
+    background: #FC5B3E;
+    margin: 0 auto;
+    display: block;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: .1rem;
+    margin-top: .62rem; }

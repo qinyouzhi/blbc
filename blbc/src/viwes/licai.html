@@ -1,0 +1,65 @@
+<!-- 头部 -->
+<header class="header" id="header">
+	<h1 id="title">理财</h1>
+</header>
+<!-- 中部 -->
+<main class="main">
+	<section id="Money">
+		<nav class="MoneyNav">
+			<ul id="MoneyUl">
+				<li class="colorBg">全部产品</li>
+				<li>短融宝</li>
+				<li>典代宝</li>
+				<li>产融宝</li>
+				<li>新手专项</li>
+			</ul>
+		</nav>
+		<div id="MoneyDv" class="MoneyDv">
+			<div class="scroller">
+				<div class="MoneyDiv" ng-repeat="i in data" ng-licai>
+					<h2>{{i.title}}</h2>
+					<h3>{{i.title_lv}}</h3>
+					<p>{{i.title_num}}</p>
+					<div class="MoneyDate">
+						<div>
+							<h4>{{i.qixian.q}}</h4>
+							<h5>{{i.qixian.qNum}}</h5>
+						</div>
+						<div>
+							<h4>{{i.money.m}}</h4>
+							<h5>{{i.money.mNum}}</h5>
+						</div>
+					</div>
+					<canvas class="canvas" id="canvas{{i.id}}" width="50" height="50"></canvas>
+				</div>
+			</div>
+		</div>
+	</section>
+</main>
+<!-- 尾部 -->
+<footer class="footer" id="indexFoot">
+	<a ui-sref="index" class="color">
+		<dl>
+			<dt><img src="img/home.gif"></dt>
+			<dd>首页</dd>
+		</dl>
+	</a>
+	<a ui-sref="licai">
+		<dl>
+			<dt><img src="img/licai.gif"></dt>
+			<dd>理财</dd>
+		</dl>
+	</a>
+	<a ui-sref="find">
+		<dl>
+			<dt><img src="img/faxian.gif"></dt>
+			<dd>发现</dd>
+		</dl>
+	</a>
+	<a ui-sref="me">
+		<dl>
+			<dt><img src="img/user.gif"></dt>
+			<dd>我的</dd>
+		</dl>
+	</a>
+</footer>

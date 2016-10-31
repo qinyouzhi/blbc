@@ -1,0 +1,1 @@
+var app = angular.module("myapp", ["ui.router"]); //定义入口

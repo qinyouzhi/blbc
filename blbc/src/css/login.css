@@ -1,0 +1,128 @@
+.loadImg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 9999; }
+  .loadImg img {
+    width: 100%;
+    height: 100%;
+    display: block; }
+
+.loginBox {
+  width: 100%;
+  height: 100%; }
+
+.loginHead_main {
+  width: 100%;
+  height: 100%;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  overflow: hidden; }
+
+.loginHeader {
+  width: 100%;
+  height: .88rem;
+  line-height: .88rem;
+  background: #FC5B3E;
+  position: relative;
+  z-index: 999; }
+  .loginHeader h1 {
+    color: #fff;
+    text-align: center;
+    font-size: .32rem; }
+  .loginHeader a {
+    color: #fff;
+    font-size: .27rem;
+    position: absolute;
+    right: .2rem;
+    top: 0; }
+
+.loginMain {
+  -webkit-flex: 1 0;
+  position: relative; }
+
+.loginTop {
+  width: 100%;
+  height: 3.6rem;
+  position: relative; }
+  .loginTop .loginLogo {
+    width: 2.89rem;
+    height: 2.72rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto; }
+    .loginTop .loginLogo img {
+      width: 100%;
+      height: 100%;
+      display: block; }
+
+.loginCen {
+  width: 89%;
+  margin: 0 auto; }
+  .loginCen .inputs {
+    width: 100%;
+    height: .81rem;
+    border-bottom: .02rem solid #F0A630;
+    position: relative; }
+    .loginCen .inputs input {
+      width: 80%;
+      height: 80%;
+      position: absolute;
+      left: .92rem;
+      top: 0;
+      bottom: 0;
+      margin: auto 0;
+      border: none;
+      outline: none;
+      font-size: .28rem;
+      color: #999; }
+      .loginCen .inputs input::-webkit-input-placeholder {
+        color: #999;
+        font-size: .28rem; }
+    .loginCen .inputs span {
+      font-size: 0; }
+    .loginCen .inputs:nth-of-type(1) span {
+      width: .28rem;
+      height: .45rem;
+      background: url(../img/phone2.gif) no-repeat;
+      background-size: cover;
+      position: absolute;
+      left: .24rem;
+      top: 0;
+      bottom: 0;
+      margin: auto 0; }
+    .loginCen .inputs:nth-of-type(2) span {
+      width: .34rem;
+      height: .45rem;
+      background: url(../img/pwd2.gif) no-repeat;
+      background-size: cover;
+      position: absolute;
+      left: .21rem;
+      top: 0;
+      bottom: 0;
+      margin: auto 0; }
+  .loginCen .sub {
+    width: 100%;
+    height: .7rem;
+    background: #F0A630;
+    border-radius: .35rem;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: .3rem;
+    margin-top: .95rem; }
+  .loginCen .delPwd {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 1.68rem;
+    margin: 0 auto;
+    text-align: center; }
+    .loginCen .delPwd a {
+      font-size: .28rem;
+      color: #F0A630; }

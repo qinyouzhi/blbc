@@ -1,0 +1,50 @@
+a,
+img {
+  -webkit-tap-highlight-color: transparent; }
+
+.dataMain {
+  width: 100%;
+  height: 100%;
+  background: #E8781E; }
+  .dataMain h2 {
+    color: #fff;
+    font-size: .33rem;
+    text-align: center;
+    line-height: 1.57rem; }
+  .dataMain h3 {
+    color: #fff;
+    font-size: .22rem;
+    text-align: center; }
+  .dataMain dl dt {
+    width: 3rem;
+    height: 3rem;
+    background: #FF3F30;
+    margin: 0 auto;
+    margin-top: 1.1rem;
+    border-radius: 50%; }
+    .dataMain dl dt #can {
+      width: 3rem;
+      height: 3rem; }
+  .dataMain dl dd {
+    color: #fff;
+    text-align: center; }
+    .dataMain dl dd h4 {
+      font-size: .22rem;
+      padding-top: .57rem; }
+    .dataMain dl dd p {
+      font-size: .24rem;
+      padding-top: .38rem; }
+
+.manSize {
+  width: 100%;
+  display: -webkit-flex; }
+  .manSize div {
+    width: 50%;
+    text-align: center;
+    color: #fff;
+    margin-top: 1.4rem; }
+    .manSize div h4 {
+      font-size: .22rem;
+      padding-bottom: .24rem; }
+    .manSize div p {
+      font-size: .24rem; }
